@@ -26,7 +26,9 @@ function Register() {
     <div className="d-flex justify-content-center mt-5">
       {dummy ? (
         <Card>
-          <Card.Header>Register</Card.Header>
+          <Card.Header className="text-center fs-4 fw-bold">
+            Register
+          </Card.Header>
           <Card.Body>
             <Formik
               initialValues={{
